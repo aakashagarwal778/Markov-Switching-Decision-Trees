@@ -1,8 +1,6 @@
-import numpy as np # comment
-import pandas as pd # added another comment
-from sklearn.tree import DecisionTreeRegressor
+import numpy as np
 import pandas as pd
-from sklearn.tree import DecisionTreeRegressor # added another - another comment
+from sklearn.tree import DecisionTreeRegressor
 from config import n_periods, n_assets, regimes, mean_returns, volatility
 
 class PortfolioSimulation:
