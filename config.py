@@ -1,6 +1,8 @@
 n_periods = 500
 n_assets = 3
 regimes = ["Bullish", "Bearish", "Volatile"]
+
+# Base simulation parameters
 mean_returns = {
     "Bullish": [0.001, 0.0005, 0.0008],
     "Bearish": [-0.0002, 0.0003, 0.0004],
@@ -11,6 +13,7 @@ volatility = {
     "Bearish": [0.02, 0.006, 0.012],
     "Volatile": [0.025, 0.008, 0.015]
 }
+# Sensitivity analysis parameters
 parameter_variations = {
     "Higher Volatility": {
         "mean_returns": {
